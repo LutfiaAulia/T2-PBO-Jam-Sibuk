@@ -2,10 +2,10 @@ class App{
     public static void main(String[] args) {
         Asdos a = new Asdos("Fairuzikun ", 24, 49);
         Dosen d = new Dosen("Raja OP Damanik ", 5);
-        Elemen as = new Asdos("Angel-chan ", 20, 44);
+        Elemen as = new Asdos("Angel-chan ", 20, 44); //Upcasting
         Mahasiswa m = new Mahasiswa("Firman ", 20);
-        Elemen ma = new Mahasiswa("Nid to pass this sem ", 23);
-        Elemen dos = new Dosen("Nivotko ", 3);
+        Elemen ma = new Mahasiswa("Nid to pass this sem ", 23); //Upcasting
+        Elemen dos = new Dosen("Nivotko ", 3); //Upcasting
 
         int asdos1 = a.getJamsibuk();
         int dosen1 = d.getJamsibuk();
