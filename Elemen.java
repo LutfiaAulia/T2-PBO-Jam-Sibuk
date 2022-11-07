@@ -8,7 +8,7 @@ class Elemen{
     public String getNama(){
         return nama;
     }
-
+    //Polymorphisme
     public int getJamsibuk(){
         return nama;
     }
