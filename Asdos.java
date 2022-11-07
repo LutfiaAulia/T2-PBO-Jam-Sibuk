@@ -6,7 +6,7 @@ class Asdos extends Mahasiswa{
         setJamNgasdos(jamNgasdos);
         this.jamNgasdos = jamNgasdos+SKS;
     }
-
+    //Polymorphisme
     public int getJamsibuk(){
         System.out.println(getNama()+"adalah seorang asdos dengan jam sibuk "+jamNgasdos);
         return jamNgasdos;
