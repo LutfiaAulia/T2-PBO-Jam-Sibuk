@@ -2,7 +2,7 @@ class Asdos extends Mahasiswa{
     private int jamNgasdos;
 
     public Asdos(String nama, int SKS, int jamNgasdos){
-        super(nama, SKS);
+        super(nama, SKS); //Downcasting
         setJamNgasdos(jamNgasdos);
         this.jamNgasdos = jamNgasdos+SKS;
     }
